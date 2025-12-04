@@ -79,9 +79,10 @@ cd MedXpertQA/eval
 ## Citation
 
 ```bibtex
-@misc{he2025mmboundaryadvancingmllmknowledge,
-      title={MMBoundary: Advancing MLLM Knowledge Boundary Awareness through Reasoning Step Confidence Calibration}, 
-      author={Zhitao He and Sandeep Polisetty and Zhiyuan Fan and Yuchen Huang and Shujin Wu and Yi R. Fung},
+@misc{he2025medtutor-r1,
+      title={MedTutor-R1: Socratic Personalized Medical Teaching
+with Multi-Agent Simulation}, 
+      author={Zhitao He and Haolin Yang and Yi R. Fung},
       year={2025},
       eprint={2505.23224},
       archivePrefix={arXiv},
