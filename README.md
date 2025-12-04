@@ -63,18 +63,65 @@ conda activate MedTutor-R1
 pip install -r requirements.txt
 ```
 
-## Downloading the dataset
-
-- **MedXpertQA :**
+## Question decomposition
 
 ```bash
-git clone https://github.com/TsinghuaC3I/MedXpertQA
-cd MedXpertQA/eval
+# breaking down the question into multiple sub-questions for Socratic education
+python question_decomposition/problem_decomposition.py
+```
+
+## Patient Agent
+
+```bash
+# patient database
+python Patient_simulate/construct_database.py
+
+# patient scripts
+python Patient_simulate/construct_script_MM_test.py
+```
+
+## Student Agent
+
+```bash
+# student database
+Student_simulate/construct_student_database.py
+```
+
+## ClinEdu
+
+```bash
+# Instructions for agents
+Execution/Agent_prompt/student_action.txt
+Execution/Agent_prompt/student_analysis.txt
+Execution/Agent_prompt/teacher_guidance.txt
+
+# Start evironment 
+python Execution/agentic_framework.py
+```
+
+## Training
+
+```bash
+# Stage 1：Instruction-Tuning for Socratic Teaching
+python SFT_files/construct_multi_dialogue.py
+python SFT_files/construct_single_dialogue.py
+
+# Stage 2: Reinforcement Learning with Rubric Criterion
+
 ```
 
 
+## Evaluation
 
+```bash
+# Placing the AI tutor back into the ClinEdu environment for testing yielded the conversation records.
+# test data
+Evaluation/Eval_dataset/MedXpertQA/MedXpert_patient_script_MM_for_test.json
 
+# eval
+python Evaluation/Judgement/automated_eval_result.py
+
+```
 
 ## Citation
 
