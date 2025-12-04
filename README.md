@@ -103,11 +103,13 @@ python Execution/agentic_framework.py
 
 ```bash
 # Stage 1：Instruction-Tuning for Socratic Teaching
-python SFT_files/construct_multi_dialogue.py
-python SFT_files/construct_single_dialogue.py
+cd SFT
+llamafactory-cli train examples/train_lora/qwen2_5vl_lora_sft_medical.yaml
+llamafactory-cli export examples/merge_lora/qwen2_5vl_lora_sft.yaml
 
 # Stage 2: Reinforcement Learning with Rubric Criterion
-
+cd ../EasyR1
+bash examples/qwen2_5_vl_7b_AItutor_grpo.sh
 ```
 
 
