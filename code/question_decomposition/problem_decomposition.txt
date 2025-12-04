@@ -1,0 +1,48 @@
+You are a medical education expert. Your task is to create a set of Socratic teaching steps based on the case I provide. You must break down the complete clinical reasoning process into a series of logically coherent steps.
+
+**Output Format Requirements:**
+Your final output must be a single, well-formatted JSON array. Each JSON object within the array represents an individual teaching step and must contain the following two keys:
+
+  * `"guided_question"`: (String) The guiding question you will ask the student.
+  * `"core_reasoning"`: (String) The core reasoning process or key knowledge point that the question targets.
+
+**Other Criteria:**
+
+  * The logical endpoint of all steps must align with the final '\#Answer'.
+  * The steps should be as concise as possible, extracting the key reasoning nodes.
+  * The steps must be well-organized, with each subsequent step building upon the previous one.
+
+The following is a complete example:
+
+\#Question: A 40-year-old man presents with 5 days of productive cough and fever. Pseudomonas aeruginosa is isolated from a pulmonary abscess. CBC shows an acute effect characterized by marked leukocytosis (50,000 mL) and the differential count reveals a shift to left in granulocytes. Which of the following terms best describes these hematologic findings?
+\#Answer: Leukemoid reaction
+\#Explanation: Circulating levels of leukocytes and their precursors may occasionally reach very high levels (>50,000 WBC mL). These extreme elevations are sometimes called leukemoid reactions because they are similar to the white cell counts observed in leukemia, from which they must be distinguished. The leukocytosis occurs initially because of the accelerated release of granulocytes from the bone marrow (caused by cytokines, including TNF and IL-1) There is a rise in the number of both mature and immature neutrophils in the blood, referred to as a shift to the left. In contrast to bacterial infections, viral infections (including infectious mononucleosis) are characterized by lymphocytosis Parasitic infestations and certain allergic reactions cause eosinophilia, an increase in the number of circulating eosinophils. Leukopenia is defined as an absolute decrease in the circulating WBC count.
+\#Steps:
+
+```json
+[
+    {
+        "guided_question": "What is the most significant abnormality in this patient's complete blood count (CBC)?",
+        "core_reasoning": "The patient has a significant leukocytosis with a white blood cell count of 50,000/mL, which is an extreme level."
+    },
+    {
+        "guided_question": "What is the specific medical term for this extreme elevation of white blood cells, caused by a severe infection, which mimics leukemia?",
+        "core_reasoning": "This extreme elevation of white blood cells due to non-leukemic causes (like a severe infection) is known as a 'leukemoid reaction'."
+    },
+    {
+        "guided_question": "What does the 'granulocytic left shift' mentioned in the report reveal about what is happening in the bone marrow?",
+        "core_reasoning": "A 'left shift' indicates that the bone marrow is accelerating the release of a large number of immature and mature neutrophils into the bloodstream in response to the severe bacterial infection."
+    },
+    {
+        "guided_question": "Why are viral infections, parasitic infections, or leukopenia not the correct explanation in this case?",
+        "core_reasoning": "Viral infections typically cause lymphocytosis, parasitic/allergic conditions cause eosinophilia, and leukopenia is a decrease in white cells. This case involves a dramatic increase in neutrophils due to a bacterial abscess, so none of the other conditions fit."
+    }
+]
+```
+
+Now, please process the new content provided below:
+
+\#Question: {question}
+\#Answer: {answer}
+\#Explanation: {explanation}
+\#Steps:

@@ -1,0 +1,98 @@
+[
+  {
+    "id": "MM-2000",
+    "question": "A 62-year-old woman with a history of type 2 diabetes and early-onset Alzheimer dementia was admitted to the intensive care unit (ICU) one week ago with sepsis. She was found to have Escherichia coli pyelonephritis, was treated with intravenous fluids and appropriate antibiotics, and slowly improved. However, today she developed recurrence of fever and confusion, and she also reports constant abdominal pain.\n\n\nHer current vital signs include a temperature of 38.5°C, a heart rate of 125 beats per minute, a blood pressure of 85/55 mm Hg, a respiratory rate of 25 breaths per minute, and an oxygen saturation of 96% while she receives 2 liters of oxygen via nasal cannula. Her cardiac and lung sounds are normal. She grimaces with palpation of the abdomen, worst in the right upper quadrant.\n\n\nLaboratory testing yields the following results:\n\n\n\n\n|  | Patient value | Reference range |\n| --- | --- | --- |\n| Leukocyte count (per mm3) | 14,200 | 4500–11,000 |\n| Hemoglobin (g/dL) | 12.0 | 12.0–16.0 |\n| Hematocrit (%) | 36.0 | 36.0–46.0 |\n| Platelet count (per mm3) | 265,000 | 150,000–350,000 |\n| Creatinine (mg/dL) | 2.0 | 0.6–1.1 |\n| Bilirubin, total (mg/dL) | 1.2 | 0.3–1.0 |\n| Alkaline phosphatase (U/liter) | 160 | 30–120 |\n| Aspartate aminotransferase (U/liter) | 120 | 0–35 |\n| Alanine aminotransferase (U/liter) | 100 | 0–35 |\n\n\nAn abdominal ultrasound, performed one week ago, revealed a normal liver and biliary system. An upright abdominal radiograph is obtained today (figure).\n\n\nWhat is the most appropriate next imaging study for this patient?\nAnswer Choices: (A) Endoscopic ultrasound (B) Cholescintigraphy (C) Endoscopic retrograde cholangiopancreatography (D) Abdominal ultrasound of the right upper quadrant (E) Magnetic resonance cholangiopancreatography",
+    "options": {
+      "A": "Endoscopic ultrasound",
+      "B": "Cholescintigraphy",
+      "C": "Endoscopic retrograde cholangiopancreatography",
+      "D": "Abdominal ultrasound of the right upper quadrant",
+      "E": "Magnetic resonance cholangiopancreatography"
+    },
+    "label": "D",
+    "images": [
+      "MM-2000-a.jpeg"
+    ],
+    "medical_task": "Diagnosis",
+    "body_system": "Digestive",
+    "question_type": "Reasoning",
+    "model_response": "```json\n[\n    {\n        \"key_question\": \"What are the key clinical features presented in the vignette that suggest the recurrence of infection and abdominal complications?\",\n        \"step_summary\": \"This step involves synthesizing the entire clinical vignette, including the patient's history of sepsis, her current symptoms of fever, confusion, abdominal pain, and vital sign abnormalities, to hypothesize potential complications such as an abdominal infection or organ dysfunction.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"What could be inferred from the laboratory findings in relation to abdominal pathologies?\",\n        \"step_summary\": \"This step requires interpretation of laboratory results such as elevated liver enzymes, bilirubin, leukocyte count, and creatinine. The abnormal values can point towards liver dysfunction or biliary obstruction, which could explain abdominal pain and fever.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"What does the upright abdominal radiograph (MM-2000-a.jpeg) reveal regarding potential causes of abdominal pain?\",\n        \"step_summary\": \"This step focuses on analyzing the provided imaging for signs of gastrointestinal obstruction, free air indicating perforation, or other anomalies that could cause localized abdominal pain in the right upper quadrant.\",\n        \"associated_image_id\": \"MM-2000-a.jpeg\"\n    },\n    {\n        \"key_question\": \"Considering the recent normal abdominal ultrasound and the current imaging and lab results, what is the most appropriate next imaging study for further characterization of the right upper quadrant pain?\",\n        \"step_summary\": \"This step involves determining the appropriate imaging modality that could provide additional insight into suspected biliary or hepatic issues, despite the prior normal ultrasound results, leading to the recommendation for an ultrasound in targeting the precise anatomical area of concern.\",\n        \"associated_image_id\": null\n    }\n]\n```"
+  },
+  {
+    "id": "MM-2001",
+    "question": "A 78-year-old man presents to the emergency room with progressive shortness of breath over the last 2 weeks. He also complains of facial swelling over the last week and noticed that it was especially prominent this afternoon when he woke from his nap. The patient denies chest pain but does note a mild chronic cough, which has been stable for years. He has a history of chronic obstructive pulmonary disease (COPD) and his last exacerbation was 1 month ago and resolved with a course of oral glucocorticoids. The patient also had a myocardial infarction (MI) 9 years ago and underwent percutaneous angioplasty of his left anterior descending artery. Medications include a combined beta-2 agonist and anticholinergic inhaler, aspirin, rosuvastatin, metoprolol, and lisinopril. The patient has a 60-pack-year smoking history and currently smokes half a pack per day. In the emergency room, the patient’s temperature is 98.9°F (37.2°C), blood pressure is 141/82 mmHg, pulse is 75/min, respirations are 18/min, and oxygen saturation is 94% on room air. On exam, he appears slightly uncomfortable with mild use of accessory respiratory muscles. His face is shown in Figure A and distended veins are noted on his anterior chest wall. A cardiovascular exam is notable for a 2/6 systolic ejection murmur, and a lung exam reveals breath sounds that are louder in the right middle lung fields. The remainder of the exam is unremarkable. Which of the following is the most appropriate next step in management?\nAnswer Choices: (A) D-dimer (B) Chest radiograph (C) Bronchoscopy (D) Complete blood count (E) Echocardiogram",
+    "options": {
+      "A": "D-dimer",
+      "B": "Chest radiograph",
+      "C": "Bronchoscopy",
+      "D": "Complete blood count",
+      "E": "Echocardiogram"
+    },
+    "label": "B",
+    "images": [
+      "MM-2001-a.jpeg"
+    ],
+    "medical_task": "Diagnosis",
+    "body_system": "Cardiovascular",
+    "question_type": "Reasoning",
+    "model_response": "```json\n[\n    {\n        \"key_question\": \"What are the key symptoms and historical findings presented in the clinical vignette that suggest an acute change in this patient's condition?\",\n        \"step_summary\": \"The initial synthesis of the patient's presentation includes progressive shortness of breath, facial swelling that is pronounced after lying down, and distended chest veins, suggesting a potential obstructive or vascular issue, possibly superior vena cava syndrome.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"What specific findings are noted on the physical examination that require further investigation?\",\n        \"step_summary\": \"Examine the physical findings such as mild use of accessory respiratory muscles, distended neck and chest veins, a systolic murmur, and changes in lung sounds, indicating the need to explore potential cardiopulmonary or vascular causes.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"What is the significance of the distended veins on the anterior chest wall in relation to the patient's symptoms?\",\n        \"step_summary\": \"Distended veins could indicate increased venous pressure or obstruction, warranting investigation of conditions like superior vena cava syndrome which aligns with the symptomatology of facial swelling and dyspnea.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"Given the suspected clinical issues, which imaging study would help visualize potential causes of the symptoms, especially focusing on cardiopulmonary structures?\",\n        \"step_summary\": \"A chest radiograph is essential to assess for mediastinal mass, fluid collections, or lung pathology that might explain the obstructive symptoms, providing a first-line non-invasive visualization of thoracic structures.\",\n        \"associated_image_id\": null\n    }\n]\n```"
+  },
+  {
+    "id": "MM-2002",
+    "question": "Which artery labeled in Figure A provides the predominant blood supply to the spinal cord?\nAnswer Choices: (A) C (B) D (C) A (D) B (E) None of the above",
+    "options": {
+      "A": "C",
+      "B": "D",
+      "C": "A",
+      "D": "B",
+      "E": "None of the above"
+    },
+    "label": "C",
+    "images": [
+      "MM-2002-a.jpeg"
+    ],
+    "medical_task": "Basic Medicine",
+    "body_system": "Cardiovascular",
+    "question_type": "Understanding",
+    "model_response": "```json\n[\n    {\n        \"key_question\": \"What are the labeled structures in Figure A (MM-2002-a.jpeg) and which vessel is commonly acknowledged as the major blood supply to the spinal cord?\",\n        \"step_summary\": \"This step involves identifying the anatomical structures present in the image and understanding their roles. The task is to correlate the labels with known vascular anatomy supplying the spinal cord.\",\n        \"associated_image_id\": \"MM-2002-a.jpeg\"\n    },\n    {\n        \"key_question\": \"What is the known function of the anterior spinal artery in supplying blood to the spinal cord, and which labeled artery corresponds to this structure?\",\n        \"step_summary\": \"This step requires understanding the functional significance of the anterior spinal artery, which predominantly supplies the anterior portion of the spinal cord, and identifying its representation in the image.\",\n        \"associated_image_id\": \"MM-2002-a.jpeg\"\n    },\n    {\n        \"key_question\": \"By integrating the anatomical knowledge and image findings, which labeled artery is responsible for providing the predominant blood supply to the spinal cord in Figure A?\",\n        \"step_summary\": \"This synthesis step involves integrating visual analysis with theoretical anatomical knowledge to conclude which labeled vessel predominantly supplies the spinal cord, leading to the selection of the correct answer.\",\n        \"associated_image_id\": \"MM-2002-a.jpeg\"\n    }\n]\n```"
+  },
+  {
+    "id": "MM-2003",
+    "question": "A 24-year-old male presents to his primary care physician with progressive chest discomfort over the last month. The discomfort is constant and sometimes associated with shortness of breath. The patient has also noticed a 12-pound unintentional weight loss over the last 6 weeks. He also thinks his breasts have increased in size. He feels more fatigued than usual but denies night sweats, palpitations, and dizziness. The patient had unilateral cryptorchidism with successful orchiopexy as an infant. He also had an episode of hepatitis A during a trip to Mexico in college. He is now a graduate student, drinks socially, and occasionally smokes marijuana. His mother has type 2 diabetes and his father has alcohol use disorder. At this visit, his temperature is 99.9°F (37.7°C), blood pressure is 121/78 mmHg, pulse is 80/min, and respirations are 14/min. There is notable bilateral gynecomastia and fullness of the anterior chest wall. His labs are shown below:\nLeukocyte count: 8,000/mm^3\nHemoglobin: 13.9 g/dL\nPlatelet count: 155,000/mm^3\nSerum:Aspartate aminotransferase: 12 U/L\nAlanine aminotransferase: 18 U/L\nAlkaline phosphatase: 82 IU/L\nAlpha-fetoprotein (AFP): 5,500 ng/mL\nSerum ß-hCG: 31,000 IU/L\nA chest radiograph is shown in Figure A. Which of the following is the most appropriate next step in management for this patient?\nAnswer Choices: (A) Chemotherapy (B) Surgical removal of mass (C) Orchiectomy (D) Biopsy of mass (E) Bone marrow biopsy",
+    "options": {
+      "A": "Chemotherapy",
+      "B": "Surgical removal of mass",
+      "C": "Orchiectomy",
+      "D": "Biopsy of mass",
+      "E": "Bone marrow biopsy"
+    },
+    "label": "D",
+    "images": [
+      "MM-2003-a.jpeg"
+    ],
+    "medical_task": "Treatment",
+    "body_system": "Reproductive",
+    "question_type": "Reasoning",
+    "model_response": "```json\n[\n    {\n        \"key_question\": \"What are the key clinical symptoms and findings from the patient's history and physical examination?\",\n        \"step_summary\": \"This initial step synthesizes all historical and physical information provided, focusing on symptoms like chest discomfort, shortness of breath, gynecomastia, weight loss, and fatigue, which provide clues pointing to the broader diagnostic context.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"What do the laboratory findings, particularly the elevated alpha-fetoprotein and serum ß-hCG levels, suggest about the potential underlying condition?\",\n        \"step_summary\": \"This step analyzes the laboratory evidence to highlight possible germ cell tumor markers, suggesting a likely testicular or mediastinal tumor producing these substances.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"In the chest radiograph (MM-2003-a.jpeg), are there any abnormalities that suggest the presence of a mediastinal mass?\",\n        \"step_summary\": \"This image analysis step requires examining the chest X-ray to identify any signs of a mediastinal mass, such as changes in contour or density that align with the elevated tumor markers.\",\n        \"associated_image_id\": \"MM-2003-a.jpeg\"\n    },\n    {\n        \"key_question\": \"Given the suspicion of a germ cell tumor based on symptoms and laboratory findings, why is a biopsy of the mass the most appropriate next step in management?\",\n        \"step_summary\": \"This reasoning step connects the dots between the diagnostics and treatment options, emphasizing the need for histological confirmation via biopsy to guide further management in a suspected germ cell tumor.\",\n        \"associated_image_id\": null\n    }\n]\n```"
+  },
+  {
+    "id": "MM-2004",
+    "question": "A 4-year-old boy is brought in by his grandmother for worsening seizure activity. She reports that occasionally he “suddenly drops” when running around the house. She says that his first seizure occurred 1 year ago. Since then, he has been on valproic acid but the seizure activity remains unchanged. He was recently enrolled in daycare because she could no longer care for him full-time. Since then, the seizure activity has increased and the daycare facility also noted concerns over his lack of response to voice commands. Family history is significant for a cousin who died suddenly at a young age. His temperature is 98.6°F (37°C), blood pressure is 105/52 mmHg, pulse is 110/min, and respirations are 25/min. A physical exam is significant for lack of response to auditory stimulation. An EEG is performed, which is unrevealing. An ECG is shown in Figure A. The patient is then startled when a door is closed quickly and he suddenly loses consciousness. An ECG is quickly performed and is shown in Figure B. An electrolyte panel is drawn with the following findings:\nSerum:Na+: 142 mEq/L\nCl-: 88 mEq/dL\nK+: 3.4 mEq/L\nHCO3-: 24 mEq/L\nBUN: 11 mg/dL\nGlucose: 67 mg/dL\nCreatinine: 0.6 mg/dL\nMg2+: 1.7 mg/dL\nWhich of the following is the most appropriate next step in management?\nAnswer Choices: (A) Administer intravenous lorazepam (B) Start ethosuximide (C) Implant a pacemaker (D) Replete potassium and magnesium and start procainamide (E) Replete potassium and magnesium and start a beta-blocker",
+    "options": {
+      "A": "Administer intravenous lorazepam",
+      "B": "Start ethosuximide",
+      "C": "Implant a pacemaker",
+      "D": "Replete potassium and magnesium and start procainamide",
+      "E": "Replete potassium and magnesium and start a beta-blocker"
+    },
+    "label": "E",
+    "images": [
+      "MM-2004-a.jpeg",
+      "MM-2004-b.jpeg"
+    ],
+    "medical_task": "Treatment",
+    "body_system": "Nervous",
+    "question_type": "Reasoning",
+    "model_response": "```json\n[\n    {\n        \"key_question\": \"What are the key elements of the clinical vignette for the 4-year-old male with worsening seizure activity and sudden collapses?\",\n        \"step_summary\": \"This step synthesizes the clinical history, highlighting the seizure activity, unresponsiveness, sudden collapses, potential family history of cardiac events, and the detail that EEG was unrevealing along with changes noted upon startling.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"What are the observations on the initial ECG (MM-2004-a.jpeg) performed before the patient loss of consciousness?\",\n        \"step_summary\": \"This observational step identifies potential baseline abnormalities in cardiac conduction or rhythm that could support cardiac involvement in the patient's symptoms.\",\n        \"associated_image_id\": \"MM-2004-a.jpeg\"\n    },\n    {\n        \"key_question\": \"How do the ECG findings change on the post-startling event (MM-2004-b.jpeg) and what does this indicate?\",\n        \"step_summary\": \"This critical evaluation focuses on identifying arrhythmias or conduction issues triggered by stress, such as the presence of ventricular tachycardia, which explains the patient's sudden loss of consciousness upon startling.\",\n        \"associated_image_id\": \"MM-2004-b.jpeg\"\n    },\n    {\n        \"key_question\": \"Considering the electrolyte panel findings, how do they contribute to the diagnostic reasoning regarding the cardiac arrhythmia?\",\n        \"step_summary\": \"This step assesses the impact of electrolyte imbalances, particularly hypokalemia and possible role of hypomagnesemia, in arrhythmogenesis, reinforcing the need to address both clinical findings together.\",\n        \"associated_image_id\": null\n    },\n    {\n        \"key_question\": \"Based on the synthesis of clinical, ECG, and electrolyte findings, what is the most appropriate next step in management to address the arrhythmia-related seizures and syncope?\",\n        \"step_summary\": \"The final step consolidates information to propose managing the underlying arrhythmic episodes; indicates electrolyte replenishment coupled with beta-blockers for arrhythmia control as the correct approach.\",\n        \"associated_image_id\": null\n    }\n]\n```"
+  }
+]
