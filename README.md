@@ -7,6 +7,7 @@
 <div align="center">
 <b><a href="https://scholar.google.com/citations?user=ULvoYXgAAAAJ&hl=zh-CN" target="_blank">Zhitao He</a>,
 <a href="https://github.com/Zhitao-He/MedTutor-R1" target="_blank"> Haolin Yang</a>,
+<a href="https://alan-qin.github.io/" target="_blank"> Zeyu Qin</a>,
  <a href="https://mayrfung.github.io/" target="_blank">Yi R. (May) Fung</a></b>
 
 
