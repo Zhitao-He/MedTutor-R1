@@ -129,15 +129,14 @@ python Evaluation/Judgement/automated_eval_result.py
 ## Citation
 
 ```bibtex
-@misc{he2025medtutor-r1,
-      title={MedTutor-R1: Socratic Personalized Medical Teaching
-with Multi-Agent Simulation}, 
-      author={Zhitao He and Haolin Yang and Yi R. Fung},
+@misc{he2025medtutorr1socraticpersonalizedmedical,
+      title={MedTutor-R1: Socratic Personalized Medical Teaching with Multi-Agent Simulation}, 
+      author={Zhitao He and Haolin Yang and Zeyu Qin and Yi R Fung},
       year={2025},
-      eprint={2505.23224},
+      eprint={2512.05671},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2505.23224}, 
+      url={https://arxiv.org/abs/2512.05671}, 
 }
 ```
 
