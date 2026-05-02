@@ -1,6 +1,6 @@
 <div align="center">
 
-# MedTutor-R1: Socratic Personalized Medical Teaching with Multi-Agent Simulation
+# (ICML'26 Spotlight) Advancing Scalable and Robust One-to-Many Alignment in Clinical Socratic Education
 
 </div>
 
