@@ -1,6 +1,6 @@
 <div align="center">
 
-# (ICML'26 Spotlight) Advancing Scalable and Robust One-to-Many Alignment in Clinical Socratic Education
+# (ICML'26 Spotlight) ClinTutor-R1: Advancing Scalable and Robust One-to-Many Alignment in Clinical Socratic Education
 
 </div>
 
